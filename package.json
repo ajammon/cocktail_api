@@ -1,0 +1,28 @@
+{
+  "name": "cocktail_lab_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Aaron Ammon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-prom-bundle": "^7.0.0",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^7.1.0",
+    "http-status-codes": "^2.3.0",
+    "prom-client": "^15.1.1",
+    "response-time": "^2.3.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
