@@ -43,7 +43,7 @@ const initializeApp = (expressApp) => {
     });
   });
 
-  expressApp.all("*", authenticationHandler);
+  // expressApp.all("*", authenticationHandler);
 
   expressApp.use("/cocktails", cocktailsRoutes);
   expressApp.use("/persons", personsRoutes);
