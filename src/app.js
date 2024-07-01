@@ -20,7 +20,7 @@ const initializeApp = (expressApp) => {
   dotenv.config();
 
   //firebase
-  const serviceAccount = require("./firebase_service_key.json");
+  const serviceAccount = require("../firebase_service_key.json");
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
   });
